@@ -15,7 +15,7 @@ const CompaniesSection = () => {
   return (
     <section
       id="clients"
-      className="min-h-[70vh] py-32 px-8 md:px-16 lg:px-24"
+      className="min-h-[70vh] py-32 px-8 md:px-16 lg:px-24 section-shell"
       style={{ transform: `translateY(${parallax}px)` }}
     >
       <h2 className="section-marker reveal">

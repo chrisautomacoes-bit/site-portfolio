@@ -99,7 +99,7 @@ const ProjectsSection = () => {
     <section 
       id="work" 
       ref={sectionRef}
-      className="min-h-screen py-32 px-8 md:px-16 lg:px-24"
+      className="min-h-screen py-32 px-8 md:px-16 lg:px-24 section-shell section-alt"
       style={{ transform: `translateY(${parallax}px)` }}
     >
       {/* Section marker */}

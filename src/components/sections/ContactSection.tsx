@@ -1,14 +1,7 @@
-import { useParallax } from '@/hooks/useParallax';
-
 const ContactSection = () => {
-  const parallax = useParallax(0.04);
-
   return (
-    <section id="contact" className="min-h-[50vh] py-32 px-8 md:px-16 lg:px-24 relative">
-      <div 
-        className="max-w-sm"
-        style={{ transform: `translateY(${parallax}px)` }}
-      >
+    <section id="contact" className="min-h-[50vh] py-32 px-8 md:px-16 lg:px-24 relative section-shell">
+      <div className="max-w-sm">
         {/* Section marker */}
         <h2 className="section-marker reveal">
           006 — contato
@@ -76,7 +69,7 @@ const ContactSection = () => {
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 flex flex-col gap-3 text-left md:mt-0 md:absolute md:bottom-8 md:left-8 md:right-8 md:flex-row md:items-end md:justify-between">
+      <footer className="mt-16 flex flex-col gap-3 text-left md:mt-16 md:flex-row md:items-end md:justify-between">
         <span className="coord reveal reveal-delay-3">
           curitiba, br · © {new Date().getFullYear()}
         </span>

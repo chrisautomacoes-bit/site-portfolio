@@ -51,7 +51,7 @@ const LabSection = () => {
   return (
     <section 
       id="lab" 
-      className="min-h-screen py-32 px-8 md:px-16 lg:px-24"
+      className="min-h-screen py-32 px-8 md:px-16 lg:px-24 section-shell"
       style={{ transform: `translateY(${parallax}px)` }}
     >
       {/* Section marker */}
