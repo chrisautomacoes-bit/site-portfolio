@@ -1,23 +1,23 @@
 const specialties = [
   {
     id: 1,
-    title: 'Automacao de processos operacionais',
-    desc: 'Criacao de fluxos que reduzem trabalho manual e erros recorrentes.',
+    title: 'Automação de processos operacionais',
+    desc: 'Criação de fluxos que reduzem trabalho manual e erros recorrentes.',
   },
   {
     id: 2,
-    title: 'Integracoes entre sistemas',
-    desc: 'Conexao de plataformas via APIs e webhooks para sincronizacao de dados e consistencia operacional.',
+    title: 'Integrações entre sistemas',
+    desc: 'Conexão de plataformas via APIs e webhooks para sincronização de dados e consistência operacional.',
   },
   {
     id: 3,
     title: 'Sistemas conversacionais',
-    desc: 'Chatbots aplicados a agendamento, triagem e automacao de atendimento.',
+    desc: 'Chatbots aplicados a agendamento, triagem e automação de atendimento.',
   },
   {
     id: 4,
-    title: 'Estruturacao de operacoes digitais',
-    desc: 'Organizacao de fluxos, dados e ferramentas para maior previsibilidade e controle.',
+    title: 'Estruturação de operações digitais',
+    desc: 'Organização de fluxos, dados e ferramentas para maior previsibilidade e controle.',
   },
 ];
 

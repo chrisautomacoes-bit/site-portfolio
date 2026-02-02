@@ -1,8 +1,8 @@
 const stackGroups = [
-  { id: 1, title: 'Automacao & Integracoes', items: ['n8n', 'APIs', 'Webhooks', 'Chatbots'] },
-  { id: 2, title: 'Desenvolvimento (em evolucao)', items: ['JavaScript', 'Node', 'Python'] },
-  { id: 3, title: 'Dados', items: ['Postgres', 'Estruturacao de dados', 'ETL basico'] },
-  { id: 4, title: 'Infraestrutura', items: ['VPS', 'Integracoes self-hosted', 'Monitoramento basico'] },
+  { id: 1, title: 'Automação & Integrações', items: ['n8n', 'APIs', 'Webhooks', 'Chatbots'] },
+  { id: 2, title: 'Desenvolvimento (em evolução)', items: ['JavaScript', 'Node', 'Python'] },
+  { id: 3, title: 'Dados', items: ['Postgres', 'Estruturação de dados', 'ETL básico'] },
+  { id: 4, title: 'Infraestrutura', items: ['VPS', 'Integrações self-hosted', 'Monitoramento básico'] },
 ];
 
 const LabSection = () => {

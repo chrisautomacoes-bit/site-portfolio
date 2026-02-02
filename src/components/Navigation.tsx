@@ -4,7 +4,7 @@ const navItems = [
   { label: 'sobre', href: '#about' },
   { label: 'especialidades', href: '#clients' },
   { label: 'projetos', href: '#work' },
-  { label: 'visao', href: '#vision' },
+  { label: 'visão', href: '#vision' },
   { label: 'stack', href: '#lab' },
   { label: 'contato', href: '#contact' },
 ];

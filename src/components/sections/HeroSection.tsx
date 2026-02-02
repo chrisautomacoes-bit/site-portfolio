@@ -5,12 +5,12 @@ const HeroSection = () => {
         <div className="hero-copy">
           <p className="hero-eyebrow">Christian Liborio</p>
           <h1 className="hero-title">
-            Automacao e integracoes
-            para operacoes digitais mais claras.
+            Automação e integrações
+            para operações digitais mais claras.
           </h1>
           <p className="hero-subtitle">
-            Atuo na construcao de automacoes, integracoes e sistemas digitais que reduzem
-            trabalho manual, organizam dados e tornam processos mais previsiveis
+            Atuo na construção de automações, integrações e sistemas digitais que reduzem
+            trabalho manual, organizam dados e tornam processos mais previsíveis
             no dia a dia operacional.
           </p>
           <div className="hero-cta">

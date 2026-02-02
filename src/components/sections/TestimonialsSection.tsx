@@ -2,9 +2,9 @@ const testimonials = [
   {
     id: 1,
     quote:
-      'Automatizou processos que antes levavam horas. A operacao ganhou clareza e previsibilidade.',
+      'Automatizou processos que antes levavam horas. A operação ganhou clareza e previsibilidade.',
     name: 'Marina Costa',
-    role: 'Coordenadora de Operacoes',
+    role: 'Coordenadora de Operações',
     company: 'Grupo Aurora',
   },
 ];

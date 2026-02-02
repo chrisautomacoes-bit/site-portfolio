@@ -4,9 +4,9 @@ const AuthoritySection = () => {
       <div className="section-inner">
         <p className="section-eyebrow">04 - visao</p>
         <p className="authority-quote">
-          Automacao nao e sobre ferramentas.
+          Automação não é sobre ferramentas.
           <br />
-          E sobre criar operacoes previsiveis.
+          É sobre criar operações previsíveis.
         </p>
       </div>
     </section>

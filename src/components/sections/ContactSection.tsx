@@ -3,9 +3,9 @@ const ContactSection = () => {
     <section id="contact" className="section-cta">
       <div className="section-inner">
         <p className="section-eyebrow">06 - contato</p>
-        <h2 className="cta-title">Vamos conversar sobre seu proximo sistema.</h2>
+        <h2 className="cta-title">Vamos conversar sobre seu próximo sistema.</h2>
         <p className="cta-text">
-          Se voce precisa automatizar processos, integrar plataformas
+          Se você precisa automatizar processos, integrar plataformas
           ou ganhar clareza operacional, posso ajudar.
         </p>
         <div className="contact-links">
@@ -38,7 +38,6 @@ const ContactSection = () => {
           >
             Instagram
           </a>
-          <a href="tel:+5541998880180">+55(41)99888-0180</a>
         </div>
       </div>
     </section>
