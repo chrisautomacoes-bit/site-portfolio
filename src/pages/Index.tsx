@@ -1,12 +1,12 @@
 import NetworkCanvas from '@/components/NetworkCanvas';
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/sections/HeroSection';
-import ProjectsSection from '@/components/sections/ProjectsSection';
 import CompaniesSection from '@/components/sections/CompaniesSection';
-import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import LabSection from '@/components/sections/LabSection';
 import AboutSection from '@/components/sections/AboutSection';
 import ContactSection from '@/components/sections/ContactSection';
+import ProjectsSection from '@/components/sections/ProjectsSection';
+import AuthoritySection from '@/components/sections/AuthoritySection';
 
 const Index = () => {
   return (
@@ -25,11 +25,11 @@ const Index = () => {
       {/* Main content */}
       <main className="relative z-10">
         <HeroSection />
-        <ProjectsSection />
-        <CompaniesSection />
-        <TestimonialsSection />
-        <LabSection />
         <AboutSection />
+        <CompaniesSection />
+        <ProjectsSection />
+        <AuthoritySection />
+        <LabSection />
         <ContactSection />
       </main>
     </div>

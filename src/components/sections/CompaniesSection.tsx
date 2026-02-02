@@ -1,40 +1,40 @@
-import { useParallax } from '@/hooks/useParallax';
-
-const companies = [
-  { id: 1, name: 'Empresa Atlas', sector: 'logistica' },
-  { id: 2, name: 'Grupo Aurora', sector: 'fintech' },
-  { id: 3, name: 'NorteStack', sector: 'saas' },
-  { id: 4, name: 'Delta Health', sector: 'saude' },
-  { id: 5, name: 'Mercurio Tech', sector: 'e-commerce' },
-  { id: 6, name: 'Vetor Labs', sector: 'industria' },
+const specialties = [
+  {
+    id: 1,
+    title: 'Automacao de processos operacionais',
+    desc: 'Criacao de fluxos que reduzem trabalho manual e erros recorrentes.',
+  },
+  {
+    id: 2,
+    title: 'Integracoes entre sistemas',
+    desc: 'Conexao de plataformas via APIs e webhooks para sincronizacao de dados e consistencia operacional.',
+  },
+  {
+    id: 3,
+    title: 'Sistemas conversacionais',
+    desc: 'Chatbots aplicados a agendamento, triagem e automacao de atendimento.',
+  },
+  {
+    id: 4,
+    title: 'Estruturacao de operacoes digitais',
+    desc: 'Organizacao de fluxos, dados e ferramentas para maior previsibilidade e controle.',
+  },
 ];
 
 const CompaniesSection = () => {
-  const parallax = useParallax(0.05);
-
   return (
-    <section
-      id="clients"
-      className="min-h-[70vh] py-32 px-8 md:px-16 lg:px-24 section-shell"
-      style={{ transform: `translateY(${parallax}px)` }}
-    >
-      <h2 className="section-marker reveal">
-        002 — empresas
-      </h2>
-
-      <div className="logo-grid">
-        {companies.map((company) => (
-          <div key={company.id} className="logo-card reveal">
-            <span className="logo-mark">{company.name.slice(0, 2).toUpperCase()}</span>
-            <span className="logo-name">{company.name}</span>
-            <span className="logo-meta">{company.sector}</span>
-          </div>
-        ))}
+    <section id="clients" className="section-plain section-alt">
+      <div className="section-inner">
+        <p className="section-eyebrow">02 - especialidades</p>
+        <div className="specialties-grid">
+          {specialties.map((item) => (
+            <div key={item.id} className="specialty-item">
+              <h3>{item.title}</h3>
+              <p>{item.desc}</p>
+            </div>
+          ))}
+        </div>
       </div>
-
-      <p className="text-ghost mt-12 reveal reveal-delay-3">
-        Logos ilustrativos (substituir pelos reais).
-      </p>
     </section>
   );
 };

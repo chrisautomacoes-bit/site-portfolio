@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 
 const navItems = [
-  { label: 'projetos', href: '#work' },
-  { label: 'empresas', href: '#clients' },
-  { label: 'feedbacks', href: '#feedbacks' },
-  { label: 'laboratório', href: '#lab' },
   { label: 'sobre', href: '#about' },
+  { label: 'especialidades', href: '#clients' },
+  { label: 'projetos', href: '#work' },
+  { label: 'visao', href: '#vision' },
+  { label: 'stack', href: '#lab' },
   { label: 'contato', href: '#contact' },
 ];
 
